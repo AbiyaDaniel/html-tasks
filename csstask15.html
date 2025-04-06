@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>CSS TASK 15</title>
+</head>
+<style>
+    body{
+        display: flex;
+        background:url(banner.jpg) ;
+        background-size: cover;
+        justify-content: center;
+    }
+    .grid{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        width: 500px;
+        margin-top: 30px;
+    }
+    input{
+        padding: 15px;
+        margin: 20px;
+        border: 1px solid rgb(232, 237, 239);
+        border-radius: 70px;
+        width: 90%;
+        background-color: rgba(155, 159, 162, 0.127);  
+        margin: 10px;    
+    }
+    .h1{
+        display: flex;
+       justify-content: center;
+      font-size: 35px;
+    }
+    .hr{
+        color: rgb(245, 244, 244);
+        width: 95%;
+    }
+    label{
+        margin: 20px;
+        font-weight: bold;
+    }
+    button{
+        background-color: black;    
+        color: white;    
+        padding: 15px;
+        margin: 20px;
+        border-radius: 1px;
+        width: 95%;
+        margin: 10px;  
+    }
+    
+</style>
+<body>
+    <div class="grid">
+   <form>
+    <h1 class="h1">Sign up</h1>
+    <hr class="hr"><br>
+    <label class="form">First Name</label><br>
+    <input type="text" placeholder="Enter first name " required><br>
+    <label class="form">Last Name</label><br>
+    <input type="text" placeholder="Enter last name" required><br>
+    <label class="form">Date of Birth</label><br>  
+    <input type="date" required><br>
+    <label class="form">Password</label><br>
+    <input type="password" placeholder="Enter password" required><br>
+    <label class="form">Confirm Password</label><br>
+    <input type="password" placeholder="Repeat password" required><br>
+    <hr class="hr">
+    <button type="submit">Register</button>
+</form>
+</div>
+</body>
+</html>
