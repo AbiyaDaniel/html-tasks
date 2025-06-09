@@ -1,0 +1,34 @@
+body {
+  background: radial-gradient(circle at center, #1c1c1c, #000000);
+  color: white; /* Optional: ensures text is visible */
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.brand-text{
+  color: #00f9ff;
+  font-weight: bold;
+  font-size: 28px;
+}
+.content {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.scroll-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4cc1d8;
+  color: rgb(15, 14, 14);
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 24px;
+  display: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: opacity 0.3s ease;
+}
